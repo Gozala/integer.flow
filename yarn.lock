@@ -1351,9 +1351,9 @@ doctrine-temporary-fork@2.0.0-alpha-allowarrayindex:
     esutils "^2.0.2"
     isarray "^1.0.0"
 
-documentation@^5.0.1:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/documentation/-/documentation-5.1.0.tgz#120eba93b7aed0115afc446ec9c43cb0ec6d51c6"
+documentation@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/documentation/-/documentation-5.1.1.tgz#da1820dd7e9eae4cb57bdb003ba3e3eff8c54c38"
   dependencies:
     ansi-html "^0.0.7"
     babel-core "^6.17.0"
@@ -1607,9 +1607,9 @@ first-chunk-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/first-chunk-stream/-/first-chunk-stream-1.0.0.tgz#59bfb50cd905f60d7c394cd3d9acaab4e6ad934e"
 
-flow-bin@^0.51.0:
-  version "0.51.1"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.51.1.tgz#7929c6f0a94e765429fcb2ee6e468278faa9c732"
+flow-bin@^0.52.0:
+  version "0.52.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.52.0.tgz#b6d9abe8bcd1ee5c62df386451a4e2553cadc3a3"
 
 flow-copy-source@^1.2.0:
   version "1.2.0"
