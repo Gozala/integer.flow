@@ -1,12 +1,8 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "integer.flow",
   "description": "Typed integers.",
-  "keywords": [
-    "Integer.flow",
-    "typed",
-    "flow"
-  ],
+  "keywords": ["Integer.flow", "typed", "flow"],
   "main": "lib/Integer",
   "module": "src/Integer",
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
@@ -33,17 +29,16 @@
     "build:types": "flow-copy-source --verbose src lib",
     "build:node": "babel --out-dir lib src",
     "build:api": "documentation readme --section=API src/Integer.js",
-    "build:docs": "documentation build --document-exported src/** -f html --o docs",
+    "build:docs":
+      "documentation build --document-exported src/** -f html --o docs",
     "build": "npm run build:node && npm run build:types",
     "prepublish": "npm run build && npm test",
     "precommit": "lint-staged",
-    "start": "flow-copy-source --watch --verbose src lib & babel --watch --out-dir lib src"
+    "start":
+      "flow-copy-source --watch --verbose src lib & babel --watch --out-dir lib src"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --parser flow --no-semi --write",
-      "git add"
-    ]
+    "*.js": ["prettier --parser flow --no-semi --write", "git add"]
   },
   "quokka": {
     "alias": {
@@ -51,8 +46,6 @@
     },
     "pro": true,
     "babel": true,
-    "plugins": [
-      "alias-quokka-plugin"
-    ]
+    "plugins": ["alias-quokka-plugin"]
   }
 }
