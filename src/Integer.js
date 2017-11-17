@@ -1,8 +1,6 @@
 /* @flow */
 
-/*::
-export opaque type integer:number = number
-*/
+export opaque type integer: number = number
 
 export const parseInteger = (input: string): ?integer => {
   const size = input.length
@@ -53,7 +51,6 @@ const toInteger = (value: number): integer => {
       return 0
   }
 }
-
 
 export const round = (value: number): integer => toInteger(Math.round(value))
 
